@@ -32,7 +32,7 @@ export function Hero() {
 
       {/* Top section - Role badge */}
       <motion.div
-        className="relative z-10 max-w-[1800px] w-full mx-auto"
+        className="relative z-30 max-w-[1800px] w-full mx-auto"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
@@ -50,7 +50,7 @@ export function Hero() {
       </motion.div>
 
       {/* Center - Giant Name */}
-      <div className="relative z-10 max-w-[1800px] w-full mx-auto flex-1 flex flex-col justify-center -mt-8 sm:-mt-16">
+      <div className="relative z-10 max-w-[1800px] w-full mx-auto flex-1 flex flex-col justify-center mt-4 sm:mt-0">
         {/* First Name */}
         <motion.div className="overflow-hidden">
           <motion.h1
