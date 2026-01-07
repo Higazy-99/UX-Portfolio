@@ -64,7 +64,7 @@ export function Hero() {
         </motion.div>
 
         {/* Last Name with accent */}
-        <motion.div className="overflow-hidden flex items-baseline gap-4">
+        <motion.div className="overflow-hidden flex items-end gap-1">
           <motion.h1
             className="text-[15vw] sm:text-[13vw] md:text-[11vw] font-black text-[var(--foreground)] leading-[0.85] tracking-[-0.04em] uppercase transition-colors"
             initial={{ y: '100%' }}

@@ -115,7 +115,7 @@ function ProjectDialog({ project, open, onClose }: { project: typeof projects[0]
           </div>
 
           {/* Methods Tags */}
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 p-1">
             {project.methods.map((method, idx) => (
               <span key={idx} className="text-xs px-3 py-1.5 bg-[#00E0C7]/10 border border-[#00E0C7]/30 text-[#00E0C7] rounded-full">
                 {method}
